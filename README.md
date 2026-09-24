@@ -1,8 +1,22 @@
 # 真男人就下 18 层 / 18 Floors of Mayhem
 
+<a href="video/out/man18-story-berryxia-v5.mp4"><img src="docs/gameplay-preview.gif" alt="游戏实机：下落、横版 Boss 战与 Berryxia 解说视频预览" width="800"></a>
+
+**[▶ 观看完整制作与游玩视频（66 秒）](video/out/man18-story-berryxia-v5.mp4)** · **[🎮 在 Combos 上试玩](https://combos.game/play?post_id=09d6a46e602dfeffd3f77178a6091f8c)**
+
 一个可在浏览器玩的复古像素下落游戏。从无底洞一路向下，拾取道具、躲开陷阱，在特定深度进入横版 Boss 战。支持单人、人机对战和好友联机；有角色选择、结算排行、称号海报与本地存档。
 
 这个项目从“和朋友一起玩《是男人就下 100 层》”的想法开始，使用 Codex 和 [Combos CLI](https://combos.converge.ai/cli) 反复迭代。游戏可在 [Combos 上试玩](https://combos.game/play?post_id=09d6a46e602dfeffd3f77178a6091f8c)。
+
+## 游戏画面与角色素材
+
+| 首页：妖王待机与角色选择 | 横版 Boss 战：孙悟空平台战 |
+| --- | --- |
+| ![游戏首页，角色与妖王在场景中待机](docs/首页妖王待机.png) | ![横版孙悟空 Boss 战画面](docs/孙悟空平台战.png) |
+
+![五位主角的像素角色设定](video/public/media/hero-poster.png)
+
+动效预览截取自仓库内的最终成片；角色、场景、动作帧、音乐和音效素材可在 [`public/`](public/) 与 [`art-jobs/`](art-jobs/) 查看。
 
 ## 本地运行
 
