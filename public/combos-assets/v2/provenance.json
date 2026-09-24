@@ -1,0 +1,91 @@
+{
+  "provider": "Combos CLI v1.8.0",
+  "model": "qwen-image-3-pro",
+  "type": "static_image",
+  "reference": "public/art-reference.png (style anchor only)",
+  "account_credits_before": 6116.37,
+  "account_credits_after": 6065.86,
+  "assets": {
+    "heroes": {
+      "asset_id": "2099389918464671744",
+      "file": "2099389918464671744.webp",
+      "grid": "3 rows x 6 columns",
+      "rows": [
+        "watermelon cat",
+        "strawberry cow",
+        "pineapple chicken"
+      ],
+      "columns": [
+        "idle",
+        "run",
+        "jump",
+        "fall",
+        "hurt",
+        "hang upside down reaching for help"
+      ],
+      "known_defect": "character identity leaks across a few cells (row1 col5-6, row2 col4); usable frames must be cherry-picked per cell rather than assumed row-uniform"
+    },
+    "items": {
+      "asset_id": "2099390317816938496",
+      "file": "2099390317816938496.webp",
+      "grid": "3 rows x 4 columns",
+      "rows": [
+        [
+          "heart",
+          "hourglass",
+          "shield",
+          "poison fruit"
+        ],
+        [
+          "intact platform",
+          "cracked platform",
+          "collapsing platform",
+          "conveyor belt"
+        ],
+        [
+          "spikes retracted",
+          "spikes extended",
+          "spring compressed",
+          "spring released"
+        ]
+      ]
+    },
+    "beast": {
+      "asset_id": "2099389685735325696",
+      "file": "2099389685735325696-resource-2.webp",
+      "grid": "2 rows x 4 columns",
+      "rows": [
+        [
+          "eyes hidden",
+          "one eye opening",
+          "both eyes glowing",
+          "head leaning out"
+        ],
+        [
+          "arm winding back",
+          "arm extending",
+          "claw gripping slab",
+          "arm retracting, slab breaking"
+        ]
+      ],
+      "purpose": "turns the background beast into a readable telegraph before it grabs a platform",
+      "superseded_by": "v3/2099409770143850496 — this sheet painted purple cave rock behind the arm in row 2, which travelled with the sprite into the green root-orchard biome. Border flood-keying was tried and rejected: on textured pixel art the region grows along the creature’s own shading and erases it."
+    },
+    "cave": {
+      "asset_id": "2099389831646773248",
+      "file": "2099389831646773248.webp",
+      "grid": "3 rows x 4 columns",
+      "rows": [
+        "seamless cavern wall tiles",
+        "platform surfaces with bright top / dark underside",
+        "vines, leaves, root tendrils, orchard fruit"
+      ]
+    }
+  },
+  "superseded": {
+    "batch": "v1",
+    "reason": "--type atlas runs a character-to-frame-animation pipeline: it ignored both the 16-bit pixel style and the requested grid layout, returning glossy semi-3D frames on white. Kept for the record; not shipped.",
+    "credits_spent": 177.63
+  },
+  "integration": "not yet wired into the renderer"
+}

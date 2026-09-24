@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local Combos account and deployment bindings
+combos.json
+.combos.lock
+
+# Production footage and intermediate asset-generation jobs are not game source
+video/
+art-jobs/
+.claude/

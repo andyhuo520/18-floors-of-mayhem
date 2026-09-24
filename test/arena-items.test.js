@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {arenaItemStep,fireArenaWeapon,ARENA_WEAPONS} from '../public/arena-items.js';
+import {makeGame} from '../public/engine.js';
+function setup(){const g=makeGame([{id:'p'}],1);g.t=8;g.bossArena={floor:520};g.fallBoss={index:0,x:700,y:455,spawnAt:0};g.heroShots=[];return g;}
+test('arena supplies are limited and grant finite weapon ammunition on contact',()=>{const g=setup();arenaItemStep(g,()=>{});assert.equal(g.arenaPickups.length,1);const p=g.players[0],item=g.arenaPickups[0];p.x=item.x;p.y=item.y+28;arenaItemStep(g,()=>{});assert.equal(p.bossAmmo,12);assert.equal(g.arenaPickups.length,0);arenaItemStep(g,()=>{});assert.equal(g.arenaPickups.length,0);fireArenaWeapon(g,p,g.fallBoss);assert.equal(p.bossAmmo,11);assert.equal(g.heroShots.length,3);});
+test('spear breaks guard, gourd hits health harder, empty ammo returns to basic shot',()=>{assert.ok(ARENA_WEAPONS[1].guardDamage>ARENA_WEAPONS[1].damage);assert.ok(ARENA_WEAPONS[2].damage>ARENA_WEAPONS[2].guardDamage);const g=setup(),p=g.players[0];p.bossWeapon=2;p.bossAmmo=0;fireArenaWeapon(g,p,g.fallBoss);assert.equal(g.heroShots[0].damage,8);assert.equal(g.heroShots.length,1);});

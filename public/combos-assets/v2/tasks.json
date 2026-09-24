@@ -1,0 +1,14 @@
+{
+  "batch": "man18-v2",
+  "model": "qwen-image-3-pro",
+  "type": "static_image",
+  "reference": "public/art-reference.png",
+  "note": "v1 used --type atlas, whose character-to-frame-animation pipeline ignored the pixel style and the grid layout. static_image is the proven path for this project's art direction.",
+  "tasks": {
+    "heroes": { "task_id": "b51eb3dc-f3db-5058-9847-7177398f32c7", "idempotency_key": "man18-v2-heroes-01" },
+    "items":  { "task_id": "4fc22714-c7c7-50b4-8f47-c3ec66ca55b2", "idempotency_key": "man18-v2-items-01" },
+    "beast":  { "task_id": "9d43af2d-0a33-5b7b-92da-0bf035c959d9", "idempotency_key": "man18-v2-beast-01" },
+    "cave":   { "task_id": "489bda90-a97c-5114-9491-a0a4faf54827", "idempotency_key": "man18-v2-cave-01" }
+  },
+  "resume": "combos asset get --task TASK_ID --wait --output ./public/combos-assets/v2"
+}

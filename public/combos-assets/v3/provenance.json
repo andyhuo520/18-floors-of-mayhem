@@ -1,0 +1,24 @@
+{
+  "provider": "Combos CLI v1.8.0",
+  "model": "qwen-image-3-pro",
+  "type": "static_image",
+  "asset_id": "2099409770143850496",
+  "file": "2099409770143850496.webp",
+  "grid": "2 rows x 4 columns",
+  "rows": [
+    [
+      "eyes-hidden",
+      "eye-opening",
+      "eyes-glowing",
+      "head-out"
+    ],
+    [
+      "arm-wind",
+      "arm-reach",
+      "claw-grip",
+      "arm-retract"
+    ]
+  ],
+  "why": "Regenerated from v2 with an explicit flat-background rule so each cell cuts out cleanly. The renderer uses arm-reach through the grab (claw-grip carries its own slab, which reads as a second platform beside the real one) and arm-retract once the platform breaks.",
+  "integration": "public/combos-assets/sprites/beast/, drawn by pixelBeast in public/pixel-world.js"
+}

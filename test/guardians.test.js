@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {guardianKind,guardianPose} from '../public/guardians.js';
+test('guardians anticipate, reach and retreat with a long quiet interval',()=>{assert.equal(guardianPose(1,0,true).stage,'窥视');assert.equal(guardianPose(3.5,0,true).stage,'靠近');assert.equal(guardianPose(5.5,0,true).reach,1);assert.equal(guardianPose(8,0,true).stage,'退场');assert.equal(guardianPose(12,0,true).visible,false);for(let t=0;t<60;t+=.1){const p=guardianPose(t);assert.ok(p.alpha>=0&&p.alpha<=.5);assert.ok(p.reach>=0&&p.reach<=1);}});
+test('biomes select the matching forest, volcanic and cosmic creature',()=>{assert.equal(guardianKind('root'),0);assert.equal(guardianKind('water'),0);assert.equal(guardianKind('fire'),1);assert.equal(guardianKind('mars'),1);assert.equal(guardianKind('blackhole'),2);});

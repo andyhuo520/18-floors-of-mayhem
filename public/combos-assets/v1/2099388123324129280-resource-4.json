@@ -1,0 +1,37 @@
+{
+  "name": "root_orchard_cave_tiles",
+  "entity_name": "root_orchard_cave_tiles",
+  "type": "character",
+  "frame_size": {
+    "width": 430,
+    "height": 432
+  },
+  "original_size": {
+    "width": 430,
+    "height": 432
+  },
+  "flipped": false,
+  "animations": [
+    {
+      "name": "idle_glow",
+      "frames": [
+        "idle_glow/frame0000",
+        "idle_glow/frame0001",
+        "idle_glow/frame0002",
+        "idle_glow/frame0003",
+        "idle_glow/frame0004",
+        "idle_glow/frame0005",
+        "idle_glow/frame0006",
+        "idle_glow/frame0007",
+        "idle_glow/frame0008",
+        "idle_glow/frame0009",
+        "idle_glow/frame0010",
+        "idle_glow/frame0011",
+        "idle_glow/frame0012",
+        "idle_glow/frame0013",
+        "idle_glow/frame0014",
+        "idle_glow/frame0015"
+      ]
+    }
+  ]
+}

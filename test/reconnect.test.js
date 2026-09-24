@@ -1,0 +1,13 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {spawn} from 'node:child_process';import {WebSocket} from 'ws';
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+async function newCode(port){const res=await fetch(`http://127.0.0.1:${port}/room`,{method:'POST'});return (await res.json()).code;}
+function client(port,code,intent='join'){const ws=new WebSocket(`ws://127.0.0.1:${port}/ws?room=${code}&intent=${intent}`);const history=[];ws.on('message',d=>history.push(JSON.parse(d)));return {ws,history,send:m=>ws.send(JSON.stringify(m)),async wait(type,predicate=()=>true,after=0){const end=Date.now()+8000;while(Date.now()<end){const m=history.slice(after).find(m=>m.type===type&&predicate(m));if(m)return m;await delay(15);}throw new Error('Timeout '+type);}};}
+test('reconnect token restores identity and match, pauses time, rejects reuse and expires',{timeout:20000},async()=>{
+ const port=3193,server=spawn(process.execPath,['server.js'],{cwd:new URL('../',import.meta.url),env:{...process.env,PORT:String(port)},stdio:'pipe'}),clients=[];
+ try{await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.once('error',reject);});
+ const code=await newCode(port);const host=client(port,code,'create'),mate=client(port,code);clients.push(host,mate);const id=(await host.wait('hello')).id;await mate.wait('hello');host.send({type:'enableReconnect'});const {token}=await host.wait('session');host.send({type:'create',name:'断线测试',rules:{mode:'coop'}});await host.wait('lobby');mate.send({type:'join',code});await host.wait('lobby',m=>m.players.length===2);host.send({type:'start'});await host.wait('state');host.ws.terminate();await mate.wait('network',m=>m.paused);const last=mate.history.filter(m=>m.type==='state').at(-1).game;await delay(300);
+ const back=client(port,code);clients.push(back);await back.wait('hello');back.send({type:'resume',token});const resumed=await back.wait('resumed');assert.equal(resumed.id,id);assert.equal(resumed.game.seed,last.seed);assert.ok(Math.abs(resumed.game.t-last.t)<.1);await back.wait('lobby',m=>m.host===id);await mate.wait('network',m=>!m.paused);
+ const fake=client(port,code);clients.push(fake);await fake.wait('hello');fake.send({type:'resume',token});await fake.wait('resumeFailed');
+ const mark=mate.history.length;back.ws.terminate();await mate.wait('network',m=>m.paused,mark);await mate.wait('lobby',m=>m.players.length===1,mark);fake.send({type:'resume',token});await fake.wait('resumeFailed');assert.equal((await mate.wait('state',m=>m.game.phase==='finished',mark)).game.phase,'finished');
+ }finally{for(const c of clients)c.ws.terminate();server.kill('SIGTERM');}
+});

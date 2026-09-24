@@ -1,0 +1,20 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {characterFrame,sanitizeLook,randomLook,DEFAULT_LOOK,TRAITS} from '../public/appearance.js';import {makeGame,step} from '../public/engine.js';
+test('untrusted appearance values are clamped and unknown fields discarded',()=>{const a=sanitizeLook({shape:99,color:-10,eyes:'3',width:Infinity,mouth:NaN,hat:2,spacing:15.4,speed:900});assert.equal(a.shape,3);assert.equal(a.color,0);assert.equal(a.eyes,DEFAULT_LOOK.eyes);assert.equal(a.width,50);assert.equal(a.spacing,15);assert.equal(a.speed,undefined);assert.deepEqual(sanitizeLook(null),DEFAULT_LOOK);});
+test('randomization retains locked traits and produces valid combinations',()=>{for(let i=0;i<100;i++){const a=randomLook({hat:true,width:true,fruit:true,animal:true},DEFAULT_LOOK);assert.equal(a.hat,DEFAULT_LOOK.hat);assert.equal(a.width,50);assert.equal(a.fruit,DEFAULT_LOOK.fruit);assert.equal(a.animal,DEFAULT_LOOK.animal);assert.deepEqual(a,sanitizeLook(a));}assert.equal(Object.values(TRAITS).reduce((n,a)=>n*a.length,12),663552);});
+test('cosmetic extremes do not change physics',()=>{const a=makeGame([{id:'a',look:{...DEFAULT_LOOK,width:0,spacing:0}}],1),b=makeGame([{id:'a',look:{...DEFAULT_LOOK,width:100,spacing:100}}],1);for(let i=0;i<100;i++){step(a,{a:{right:true}});step(b,{a:{right:true}});}for(const key of ['x','y','vy','depth','alive'])assert.equal(a.players[0][key],b.players[0][key]);});
+test('opening platform collapses by 1.8s and pacing starts before one second',()=>{const g=makeGame([{id:'a'}]);for(let i=0;i<115;i++)step(g);assert.ok(g.platforms[0].broken);assert.ok(g.camera>60);assert.ok(g.players[0].y>160);});
+test('conveyor pushes a stationary player',()=>{const g=makeGame([{id:'a'}]);g.platforms[0].type='conveyor';delete g.platforms[0].breakAt;const x=g.players[0].x;step(g);assert.ok(g.players[0].x<x);});
+test('spikes warn, then damage instead of killing a healthy player',()=>{const g=makeGame([{id:'a'}]);g.players[0].hp=2;g.platforms[0].type='pulse';delete g.platforms[0].breakAt;g.t=2.7;step(g);assert.equal(g.platforms[0].warning,true);assert.equal(g.players[0].alive,true);g.t=3.7;step(g);assert.equal(g.platforms[0].active,true);assert.equal(g.players[0].alive,true);assert.equal(g.players[0].hp,1);const hp=g.players[0].hp;step(g);assert.equal(g.players[0].hp,hp);});
+test('every generated map contains new mechanics and a bypass for spike floors',()=>{for(let i=0;i<30;i++){const g=makeGame([{id:'a'}],i);assert.ok(g.platforms.some(f=>f.type==='conveyor'));for(const f of g.platforms.filter(f=>f.type==='pulse'))assert.ok(g.platforms.some(s=>s.layer===f.layer&&s.type==='solid'));}});
+test('streamed spike sections retain safe side routes',()=>{const g=makeGame([{id:'a'}],1);for(let scroll=0;scroll<30000;scroll+=500){g.camera=scroll;g.players[0].y=scroll+300;g.players[0].lastSafe=scroll+300;g.players[0].ground=null;step(g);for(const f of g.platforms.filter(f=>f.type==='pulse'&&f.y>g.camera))assert.ok(g.platforms.some(s=>s.layer===f.layer&&s.type==='solid'));}});
+
+test('five skins survive serialization and randomization returns to custom',()=>{for(let skin=1;skin<=5;skin++){const a=sanitizeLook({skin});assert.equal(JSON.parse(JSON.stringify(a)).skin,skin);assert.equal(randomLook({},a).skin,0);const g=makeGame([{id:'a',look:a}],1);assert.equal(g.players[0].look.skin,skin);assert.equal(g.players[0].hp,1);}assert.equal(sanitizeLook({skin:999}).skin,5);assert.equal(sanitizeLook({skin:-1}).skin,0);assert.equal(sanitizeLook({skin:'2'}).skin,0);});
+
+test('drawn poses follow physics, with air poses taking priority over running',()=>{
+ assert.equal(characterFrame(0,{}),0);assert.equal(characterFrame(3.5,{}),1);
+ assert.equal(characterFrame(0,{vx:100}),2);assert.equal(characterFrame(.12,{vx:-100}),3);
+ assert.equal(characterFrame(0,{airborne:true,vy:-400,vx:100}),4);
+ assert.equal(characterFrame(0,{airborne:true,vy:0}),5);
+ assert.equal(characterFrame(0,{airborne:true,vy:400}),5);
+ assert.equal(characterFrame(3.5,{reducedMotion:true}),0);
+});

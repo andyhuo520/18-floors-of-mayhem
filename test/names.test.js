@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {randomName,uniqueName,cleanName} from '../public/names.js';
+test('random names are within the input length limit',()=>{for(let i=0;i<1000;i++){const name=randomName();assert.ok(Array.from(name).length<=12);assert.equal(cleanName(name),name);}});
+test('even identical random output cannot create duplicate names',()=>{const taken=new Set();for(let i=0;i<1000;i++){const name=uniqueName('同名猛男',taken,()=>0);assert.ok(!taken.has(name));assert.ok(Array.from(name).length<=12);taken.add(name);}assert.equal(taken.size,1000);});
+test('manual names are normalized before collision checking',()=>{assert.equal(cleanName('  Ａ\u200b猫  '),'A猫');assert.notEqual(uniqueName('Ａ猫',new Set(['A猫'])),'A猫');assert.equal(uniqueName('独一无二猫',new Set()),'独一无二猫');});

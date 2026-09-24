@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {strikeBoss,recoverGuard,bossMove} from '../public/boss-rules.js';
+test('blue guard absorbs hits; break creates timed red-health vulnerability',()=>{const b={hp:360,guard:80,maxGuard:80};strikeBoss(b,80,1);assert.equal(b.hp,360);assert.equal(b.guard,0);strikeBoss(b,20,2);assert.equal(b.hp,330);recoverGuard(b,5);assert.equal(b.guard,0);recoverGuard(b,6);assert.equal(b.guard,80);});
+test('folklore bosses use their signature weapons',()=>{assert.equal(bossMove(0,0),'金箍棒横扫');assert.equal(bossMove(0,1),'腾云飞踢');assert.match(bossMove(1,0),/钉耙/);assert.match(bossMove(2,0),/月牙铲/);});

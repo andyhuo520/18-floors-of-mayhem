@@ -1,0 +1,37 @@
+{
+  "name": "pixel_items_hazards",
+  "entity_name": "pixel_items_hazards",
+  "type": "character",
+  "frame_size": {
+    "width": 456,
+    "height": 459
+  },
+  "original_size": {
+    "width": 456,
+    "height": 459
+  },
+  "flipped": false,
+  "animations": [
+    {
+      "name": "idle_state",
+      "frames": [
+        "idle_state/frame0000",
+        "idle_state/frame0001",
+        "idle_state/frame0002",
+        "idle_state/frame0003",
+        "idle_state/frame0004",
+        "idle_state/frame0005",
+        "idle_state/frame0006",
+        "idle_state/frame0007",
+        "idle_state/frame0008",
+        "idle_state/frame0009",
+        "idle_state/frame0010",
+        "idle_state/frame0011",
+        "idle_state/frame0012",
+        "idle_state/frame0013",
+        "idle_state/frame0014",
+        "idle_state/frame0015"
+      ]
+    }
+  ]
+}

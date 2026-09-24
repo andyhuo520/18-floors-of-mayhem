@@ -1,0 +1,14 @@
+{
+  "provider": "Combos CLI",
+  "model": "qwen-image-3-pro",
+  "asset_id": "2099331795146809344",
+  "task_id": "d5c72a49-874c-5b53-ae77-d5d6657f41b0",
+  "source": "https://cdn.combos.fun/generated_images/020b9e6b22a94f5b984ae9fb534165a8.webp",
+  "original_dimensions": [
+    1080,
+    1080
+  ],
+  "integration": "Three source columns sampled into a 300x227 game canvas. Programmatic anticipation, approach, claw extension and retreat; background only.",
+  "account_credits_before": 6300,
+  "account_credits_after": 6294
+}

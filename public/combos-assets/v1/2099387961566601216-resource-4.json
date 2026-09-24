@@ -1,0 +1,142 @@
+{
+  "name": "watermelon_cat_pixel",
+  "entity_name": "watermelon_cat_pixel",
+  "type": "character",
+  "frame_size": {
+    "width": 492,
+    "height": 495
+  },
+  "original_size": {
+    "width": 492,
+    "height": 495
+  },
+  "flipped": false,
+  "animations": [
+    {
+      "name": "idle",
+      "frames": [
+        "idle/frame0000",
+        "idle/frame0001",
+        "idle/frame0002",
+        "idle/frame0003",
+        "idle/frame0004",
+        "idle/frame0005",
+        "idle/frame0006",
+        "idle/frame0007",
+        "idle/frame0008",
+        "idle/frame0009",
+        "idle/frame0010",
+        "idle/frame0011",
+        "idle/frame0012",
+        "idle/frame0013",
+        "idle/frame0014",
+        "idle/frame0015"
+      ]
+    },
+    {
+      "name": "run",
+      "frames": [
+        "run/frame0000",
+        "run/frame0001",
+        "run/frame0002",
+        "run/frame0003",
+        "run/frame0004",
+        "run/frame0005",
+        "run/frame0006",
+        "run/frame0007",
+        "run/frame0008",
+        "run/frame0009",
+        "run/frame0010",
+        "run/frame0011",
+        "run/frame0012",
+        "run/frame0013",
+        "run/frame0014",
+        "run/frame0015"
+      ]
+    },
+    {
+      "name": "jump_air",
+      "frames": [
+        "jump_air/frame0000",
+        "jump_air/frame0001",
+        "jump_air/frame0002",
+        "jump_air/frame0003",
+        "jump_air/frame0004",
+        "jump_air/frame0005",
+        "jump_air/frame0006",
+        "jump_air/frame0007",
+        "jump_air/frame0008",
+        "jump_air/frame0009",
+        "jump_air/frame0010",
+        "jump_air/frame0011",
+        "jump_air/frame0012",
+        "jump_air/frame0013",
+        "jump_air/frame0014",
+        "jump_air/frame0015"
+      ]
+    },
+    {
+      "name": "fall",
+      "frames": [
+        "fall/frame0000",
+        "fall/frame0001",
+        "fall/frame0002",
+        "fall/frame0003",
+        "fall/frame0004",
+        "fall/frame0005",
+        "fall/frame0006",
+        "fall/frame0007",
+        "fall/frame0008",
+        "fall/frame0009",
+        "fall/frame0010",
+        "fall/frame0011",
+        "fall/frame0012",
+        "fall/frame0013",
+        "fall/frame0014",
+        "fall/frame0015"
+      ]
+    },
+    {
+      "name": "hurt",
+      "frames": [
+        "hurt/frame0000",
+        "hurt/frame0001",
+        "hurt/frame0002",
+        "hurt/frame0003",
+        "hurt/frame0004",
+        "hurt/frame0005",
+        "hurt/frame0006",
+        "hurt/frame0007",
+        "hurt/frame0008",
+        "hurt/frame0009",
+        "hurt/frame0010",
+        "hurt/frame0011",
+        "hurt/frame0012",
+        "hurt/frame0013",
+        "hurt/frame0014",
+        "hurt/frame0015"
+      ]
+    },
+    {
+      "name": "hang_upside_down",
+      "frames": [
+        "hang_upside_down/frame0000",
+        "hang_upside_down/frame0001",
+        "hang_upside_down/frame0002",
+        "hang_upside_down/frame0003",
+        "hang_upside_down/frame0004",
+        "hang_upside_down/frame0005",
+        "hang_upside_down/frame0006",
+        "hang_upside_down/frame0007",
+        "hang_upside_down/frame0008",
+        "hang_upside_down/frame0009",
+        "hang_upside_down/frame0010",
+        "hang_upside_down/frame0011",
+        "hang_upside_down/frame0012",
+        "hang_upside_down/frame0013",
+        "hang_upside_down/frame0014",
+        "hang_upside_down/frame0015"
+      ]
+    }
+  ]
+}

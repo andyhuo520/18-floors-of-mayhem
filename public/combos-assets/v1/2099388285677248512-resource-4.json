@@ -1,0 +1,79 @@
+{
+  "name": "mossy_cave_guardian",
+  "entity_name": "mossy_cave_guardian",
+  "type": "character",
+  "frame_size": {
+    "width": 422,
+    "height": 441
+  },
+  "original_size": {
+    "width": 422,
+    "height": 441
+  },
+  "flipped": false,
+  "animations": [
+    {
+      "name": "awaken_telegraph",
+      "frames": [
+        "awaken_telegraph/frame0000",
+        "awaken_telegraph/frame0001",
+        "awaken_telegraph/frame0002",
+        "awaken_telegraph/frame0003",
+        "awaken_telegraph/frame0004",
+        "awaken_telegraph/frame0005",
+        "awaken_telegraph/frame0006",
+        "awaken_telegraph/frame0007",
+        "awaken_telegraph/frame0008",
+        "awaken_telegraph/frame0009",
+        "awaken_telegraph/frame0010",
+        "awaken_telegraph/frame0011",
+        "awaken_telegraph/frame0012",
+        "awaken_telegraph/frame0013",
+        "awaken_telegraph/frame0014",
+        "awaken_telegraph/frame0015"
+      ]
+    },
+    {
+      "name": "claw_crush_attack",
+      "frames": [
+        "claw_crush_attack/frame0000",
+        "claw_crush_attack/frame0001",
+        "claw_crush_attack/frame0002",
+        "claw_crush_attack/frame0003",
+        "claw_crush_attack/frame0004",
+        "claw_crush_attack/frame0005",
+        "claw_crush_attack/frame0006",
+        "claw_crush_attack/frame0007",
+        "claw_crush_attack/frame0008",
+        "claw_crush_attack/frame0009",
+        "claw_crush_attack/frame0010",
+        "claw_crush_attack/frame0011",
+        "claw_crush_attack/frame0012",
+        "claw_crush_attack/frame0013",
+        "claw_crush_attack/frame0014",
+        "claw_crush_attack/frame0015"
+      ]
+    },
+    {
+      "name": "claw_flex_idle",
+      "frames": [
+        "claw_flex_idle/frame0000",
+        "claw_flex_idle/frame0001",
+        "claw_flex_idle/frame0002",
+        "claw_flex_idle/frame0003",
+        "claw_flex_idle/frame0004",
+        "claw_flex_idle/frame0005",
+        "claw_flex_idle/frame0006",
+        "claw_flex_idle/frame0007",
+        "claw_flex_idle/frame0008",
+        "claw_flex_idle/frame0009",
+        "claw_flex_idle/frame0010",
+        "claw_flex_idle/frame0011",
+        "claw_flex_idle/frame0012",
+        "claw_flex_idle/frame0013",
+        "claw_flex_idle/frame0014",
+        "claw_flex_idle/frame0015"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1023 @@
+{
+  "textures": [
+    {
+      "image": "mossy_cave_guardian.webp",
+      "format": "RGBA8888",
+      "size": {
+        "w": 6752,
+        "h": 1323
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "awaken_telegraph/frame0000",
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0001",
+          "frame": {
+            "x": 422,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0002",
+          "frame": {
+            "x": 844,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0003",
+          "frame": {
+            "x": 1266,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0004",
+          "frame": {
+            "x": 1688,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0005",
+          "frame": {
+            "x": 2110,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0006",
+          "frame": {
+            "x": 2532,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0007",
+          "frame": {
+            "x": 2954,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0008",
+          "frame": {
+            "x": 3376,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0009",
+          "frame": {
+            "x": 3798,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0010",
+          "frame": {
+            "x": 4220,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0011",
+          "frame": {
+            "x": 4642,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0012",
+          "frame": {
+            "x": 5064,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0013",
+          "frame": {
+            "x": 5486,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0014",
+          "frame": {
+            "x": 5908,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "awaken_telegraph/frame0015",
+          "frame": {
+            "x": 6330,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0000",
+          "frame": {
+            "x": 0,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0001",
+          "frame": {
+            "x": 422,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0002",
+          "frame": {
+            "x": 844,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0003",
+          "frame": {
+            "x": 1266,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0004",
+          "frame": {
+            "x": 1688,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0005",
+          "frame": {
+            "x": 2110,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0006",
+          "frame": {
+            "x": 2532,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0007",
+          "frame": {
+            "x": 2954,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0008",
+          "frame": {
+            "x": 3376,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0009",
+          "frame": {
+            "x": 3798,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0010",
+          "frame": {
+            "x": 4220,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0011",
+          "frame": {
+            "x": 4642,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0012",
+          "frame": {
+            "x": 5064,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0013",
+          "frame": {
+            "x": 5486,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0014",
+          "frame": {
+            "x": 5908,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_crush_attack/frame0015",
+          "frame": {
+            "x": 6330,
+            "y": 441,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0000",
+          "frame": {
+            "x": 0,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0001",
+          "frame": {
+            "x": 422,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0002",
+          "frame": {
+            "x": 844,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0003",
+          "frame": {
+            "x": 1266,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0004",
+          "frame": {
+            "x": 1688,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0005",
+          "frame": {
+            "x": 2110,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0006",
+          "frame": {
+            "x": 2532,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0007",
+          "frame": {
+            "x": 2954,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0008",
+          "frame": {
+            "x": 3376,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0009",
+          "frame": {
+            "x": 3798,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0010",
+          "frame": {
+            "x": 4220,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0011",
+          "frame": {
+            "x": 4642,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0012",
+          "frame": {
+            "x": 5064,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0013",
+          "frame": {
+            "x": 5486,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0014",
+          "frame": {
+            "x": 5908,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        },
+        {
+          "filename": "claw_flex_idle/frame0015",
+          "frame": {
+            "x": 6330,
+            "y": 882,
+            "w": 422,
+            "h": 441
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 422,
+            "h": 441
+          },
+          "sourceSize": {
+            "w": 422,
+            "h": 441
+          }
+        }
+      ]
+    }
+  ]
+}

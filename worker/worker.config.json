@@ -1,0 +1,7 @@
+{
+  "entry_point": "index.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": [],
+  "bindings": [{ "name": "ROOM", "class_name": "Room" }],
+  "variables": {}
+}

@@ -1,0 +1,251 @@
+{
+  "items": [
+    {
+      "name": "heart",
+      "file": "heart.webp",
+      "w": 240,
+      "h": 182
+    },
+    {
+      "name": "hourglass",
+      "file": "hourglass.webp",
+      "w": 151,
+      "h": 209
+    },
+    {
+      "name": "shield",
+      "file": "shield.webp",
+      "w": 206,
+      "h": 269,
+      "replaced_by": "shield-variants/heater.webp"
+    },
+    {
+      "name": "poison",
+      "file": "poison.webp",
+      "w": 184,
+      "h": 209
+    },
+    {
+      "name": "platform-solid",
+      "file": "platform-solid.webp",
+      "w": 254,
+      "h": 131
+    },
+    {
+      "name": "platform-cracked",
+      "file": "platform-cracked.webp",
+      "w": 227,
+      "h": 96
+    },
+    {
+      "name": "platform-collapsing",
+      "file": "platform-collapsing.webp",
+      "w": 245,
+      "h": 127
+    },
+    {
+      "name": "platform-conveyor",
+      "file": "platform-conveyor.webp",
+      "w": 234,
+      "h": 109
+    },
+    {
+      "name": "spikes-down",
+      "file": "spikes-down.webp",
+      "w": 246,
+      "h": 205
+    },
+    {
+      "name": "spikes-up",
+      "file": "spikes-up.webp",
+      "w": 209,
+      "h": 145
+    },
+    {
+      "name": "spring-idle",
+      "file": "spring-idle.webp",
+      "w": 130,
+      "h": 129
+    },
+    {
+      "name": "spring-fired",
+      "file": "spring-fired.webp",
+      "w": 125,
+      "h": 205
+    }
+  ],
+  "beast": [
+    {
+      "name": "eyes-hidden",
+      "file": "eyes-hidden.webp",
+      "w": 242,
+      "h": 219
+    },
+    {
+      "name": "eye-opening",
+      "file": "eye-opening.webp",
+      "w": 245,
+      "h": 221
+    },
+    {
+      "name": "eyes-glowing",
+      "file": "eyes-glowing.webp",
+      "w": 244,
+      "h": 220
+    },
+    {
+      "name": "head-out",
+      "file": "head-out.webp",
+      "w": 243,
+      "h": 231
+    },
+    {
+      "name": "arm-wind",
+      "file": "arm-wind.webp",
+      "w": 260,
+      "h": 203
+    },
+    {
+      "name": "arm-reach",
+      "file": "arm-reach.webp",
+      "w": 250,
+      "h": 213
+    },
+    {
+      "name": "claw-grip",
+      "file": "claw-grip.webp",
+      "w": 264,
+      "h": 221
+    },
+    {
+      "name": "arm-retract",
+      "file": "arm-retract.webp",
+      "w": 253,
+      "h": 218
+    }
+  ],
+  "shield-variants": [
+    {
+      "name": "heater",
+      "file": "heater.webp",
+      "w": 206,
+      "h": 269
+    },
+    {
+      "name": "echo-hourglass",
+      "file": "echo-hourglass.webp",
+      "w": 161,
+      "h": 234
+    },
+    {
+      "name": "plain-hex",
+      "file": "plain-hex.webp",
+      "w": 183,
+      "h": 235
+    },
+    {
+      "name": "echo-poison",
+      "file": "echo-poison.webp",
+      "w": 212,
+      "h": 251
+    },
+    {
+      "name": "heater-alt",
+      "file": "heater-alt.webp",
+      "w": 204,
+      "h": 268
+    },
+    {
+      "name": "buckler",
+      "file": "buckler.webp",
+      "w": 237,
+      "h": 246
+    },
+    {
+      "name": "kite",
+      "file": "kite.webp",
+      "w": 212,
+      "h": 285
+    },
+    {
+      "name": "tower",
+      "file": "tower.webp",
+      "w": 196,
+      "h": 238
+    }
+  ],
+  "cave": [
+    {
+      "name": "wall-roots",
+      "file": "wall-roots.webp",
+      "w": 237,
+      "h": 247
+    },
+    {
+      "name": "wall-pebbles",
+      "file": "wall-pebbles.webp",
+      "w": 238,
+      "h": 247
+    },
+    {
+      "name": "wall-vein",
+      "file": "wall-vein.webp",
+      "w": 239,
+      "h": 247
+    },
+    {
+      "name": "wall-root-vein",
+      "file": "wall-root-vein.webp",
+      "w": 234,
+      "h": 247
+    },
+    {
+      "name": "top-moss",
+      "file": "top-moss.webp",
+      "w": 237,
+      "h": 137
+    },
+    {
+      "name": "top-rootbeam",
+      "file": "top-rootbeam.webp",
+      "w": 238,
+      "h": 155
+    },
+    {
+      "name": "top-cracked",
+      "file": "top-cracked.webp",
+      "w": 238,
+      "h": 129
+    },
+    {
+      "name": "top-vine",
+      "file": "top-vine.webp",
+      "w": 234,
+      "h": 196
+    },
+    {
+      "name": "prop-vines",
+      "file": "prop-vines.webp",
+      "w": 225,
+      "h": 232
+    },
+    {
+      "name": "prop-leaves",
+      "file": "prop-leaves.webp",
+      "w": 180,
+      "h": 220
+    },
+    {
+      "name": "prop-tendrils",
+      "file": "prop-tendrils.webp",
+      "w": 182,
+      "h": 230
+    },
+    {
+      "name": "prop-fruit",
+      "file": "prop-fruit.webp",
+      "w": 119,
+      "h": 164
+    }
+  ]
+}

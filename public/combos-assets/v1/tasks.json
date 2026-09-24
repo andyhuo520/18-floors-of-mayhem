@@ -1,0 +1,13 @@
+{
+  "batch": "man18-v1",
+  "model": "qwen-image-3-pro",
+  "type": "atlas",
+  "reference": "public/art-reference.png",
+  "tasks": {
+    "heroes":  { "task_id": "f3ef138c-4ab6-50bc-8baf-2460f9fd335d", "idempotency_key": "man18-v1-heroes-01", "purpose": "watermelon cat / strawberry cow / pineapple chicken, 6 poses each" },
+    "items":   { "task_id": "401a4424-91eb-53b8-a10b-ec6c45972a4d", "idempotency_key": "man18-v1-items-01",  "purpose": "pickups, platform tiles, spikes/spring/conveyor/seesaw" },
+    "beast":   { "task_id": "f129808d-1149-52b0-89f2-f972f10b4a90", "idempotency_key": "man18-v1-beast-01",  "purpose": "cave guardian telegraph + claw grabbing platform" },
+    "cave":    { "task_id": "66f0338b-eb3b-5369-a58a-c471096b727a", "idempotency_key": "man18-v1-cave-01",   "purpose": "root orchard wall/platform/prop tiles" }
+  },
+  "resume": "combos asset get --task TASK_ID --wait --output ./public/combos-assets/v1"
+}

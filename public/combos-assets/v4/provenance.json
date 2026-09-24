@@ -1,0 +1,19 @@
+{
+  "provider": "Combos CLI v1.8.0",
+  "model": "qwen-image-3-pro",
+  "type": "static_image",
+  "asset_id": "2099414340567867392",
+  "file": "2099414340567867392.webp",
+  "reference": "public/combos-assets/v2/2099390317816938496.webp (the existing item sheet, for style matching)",
+  "why": "The original shield was a flat green plate that blended into the mossy platform tops at gameplay size.",
+  "requested": "1 row x 4 columns of shield designs",
+  "actual": "2 rows x 4 columns; the model echoed the hourglass and poison fruit from the reference sheet into row 1 and repeated the old flat shield. The four intended designs are heater, buckler, kite and tower.",
+  "shipped": "heater — riveted steel rim, embossed central boss, leaf sigil. Chosen for silhouette contrast against green platform tops at a 30px draw height.",
+  "unused": [
+    "buckler",
+    "kite",
+    "tower",
+    "heater-alt"
+  ],
+  "integration": "tools/slice-atlas.py OVERRIDES copies shield-variants/heater.webp over items/shield.webp"
+}
