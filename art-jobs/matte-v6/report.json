@@ -1,0 +1,122 @@
+[
+  {
+    "file": "public/combos-assets/world-v5/giants-a.webp",
+    "source": "world-v5-giants-a.webp",
+    "output_sha256": "f0f8a4259ce5b43e38f68a844f0efb8791b2e1ea4640bf3b6c7471d40712517f",
+    "decontaminated": 6619,
+    "debris": 111,
+    "retained_percent": 98.98
+  },
+  {
+    "file": "public/combos-assets/world-v5/relics.webp",
+    "source": "world-v5-relics.webp",
+    "output_sha256": "c23274ae2d3381a939ee068c09fa1e6f65557d9c0c7c90edc679dd1ca9059961",
+    "decontaminated": 5731,
+    "debris": 19,
+    "retained_percent": 98.61
+  },
+  {
+    "file": "public/combos-assets/world-v5/giants-c.webp",
+    "source": "world-v5-giants-c.webp",
+    "output_sha256": "84d4efba027d04a90ff3474f12b84ecc4f21f0c18efe30ad4494ccaac9fb4454",
+    "decontaminated": 7008,
+    "debris": 85,
+    "retained_percent": 98.64
+  },
+  {
+    "file": "public/combos-assets/world-v5/giants-b.webp",
+    "source": "world-v5-giants-b.webp",
+    "output_sha256": "350712a79bee779f6ced41e502e22ee04576282b05f3af69495cc6d593144794",
+    "decontaminated": 6808,
+    "debris": 84,
+    "retained_percent": 98.8
+  },
+  {
+    "file": "public/combos-assets/skills-v4/boss-a.webp",
+    "source": "skills-v4-boss-a.webp",
+    "output_sha256": "3c16730875cb3aa7603c4bd15e699bb8f1cf6f6baba9d529042423c14f27d335",
+    "decontaminated": 12124,
+    "debris": 1348,
+    "retained_percent": 96.98
+  },
+  {
+    "file": "public/combos-assets/skills-v4/heroes-a.webp",
+    "source": "skills-v4-heroes-a.webp",
+    "output_sha256": "03ca5811d2187babc540b91228ce4af23f28c8ea46a5c394853b0f71b5cfbc4b",
+    "decontaminated": 9856,
+    "debris": 646,
+    "retained_percent": 97.58
+  },
+  {
+    "file": "public/combos-assets/skills-v4/impacts.webp",
+    "source": "skills-v4-impacts.webp",
+    "output_sha256": "85abfc3af02d0e850b24fab649721cfd0f57116d828f5e4c52af2c4d2cea5bb9",
+    "decontaminated": 9631,
+    "debris": 679,
+    "retained_percent": 97.74
+  },
+  {
+    "file": "public/combos-assets/skills-v4/boss-c.webp",
+    "source": "skills-v4-boss-c.webp",
+    "output_sha256": "1fb3481ae24e97e788d97b4d7abf72111e71beceecb491a3fd68eab496c8a2a2",
+    "decontaminated": 6777,
+    "debris": 765,
+    "retained_percent": 97.83
+  },
+  {
+    "file": "public/combos-assets/skills-v4/heroes-b.webp",
+    "source": "skills-v4-heroes-b.webp",
+    "output_sha256": "f5d7b7c962edd65796ef32753060b9611c74acbd6f640d121dc883605a3dfe14",
+    "decontaminated": 9449,
+    "debris": 442,
+    "retained_percent": 97.62
+  },
+  {
+    "file": "public/combos-assets/skills-v4/boss-b.webp",
+    "source": "skills-v4-boss-b.webp",
+    "output_sha256": "3a79196fbdf1fdab33242ac6f0c3327706471d3954ea6c71e6dfe137c26531cb",
+    "decontaminated": 11482,
+    "debris": 908,
+    "retained_percent": 97.55
+  },
+  {
+    "file": "public/combos-assets/scenery-v2/boss-0.webp",
+    "source": "scenery-v2-boss-0.webp",
+    "output_sha256": "c786f54121ffc0147f0d643a49806f9de3ee058f219c448ee896c728ccfc47ac",
+    "decontaminated": 3395,
+    "debris": 1,
+    "retained_percent": 98.35
+  },
+  {
+    "file": "public/combos-assets/scenery-v2/boss-1.webp",
+    "source": "scenery-v2-boss-1.webp",
+    "output_sha256": "4acd33bb57246b73393465f5244bd153a9f09842b67be299703beac69d71fe3c",
+    "decontaminated": 1905,
+    "debris": 6,
+    "retained_percent": 99.18
+  },
+  {
+    "file": "public/combos-assets/scenery-v2/views-0.webp",
+    "source": "scenery-v2-views-0.webp",
+    "output_sha256": "1e7a994a87ff23b68b5ef9fbb5bcfdab29a751c5071adecb1f578fae886f642e",
+    "decontaminated": 1060,
+    "debris": 5,
+    "retained_percent": 98.75
+  },
+  {
+    "file": "public/combos-assets/scenery-v2/views-1.webp",
+    "source": "scenery-v2-views-1.webp",
+    "output_sha256": "00cf2fc616162cc49a3c254f4ee9d9965534be1474c2673278d6fff3d430803f",
+    "decontaminated": 1172,
+    "debris": 1,
+    "retained_percent": 99.5
+  },
+  {
+    "file": "public/combos-assets/giant-attacks.webp",
+    "source": "combos-assets-giant-attacks.webp",
+    "output_sha256": "f167ea6c7184c1b8095d990bf1d6971608ddaa035453ca423ce178c1d3e60d83",
+    "decontaminated": 3303,
+    "debris": 21,
+    "retained_percent": 99.28
+  }
+]

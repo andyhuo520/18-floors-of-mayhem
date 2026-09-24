@@ -1,0 +1,1114 @@
+[
+  {
+    "key": "chicken-zh",
+    "text": "神鸡出击，谁敢挡路！",
+    "output": "art-jobs/voices-v1/chicken-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "fd0acc55-55b1-547f-9be9-9c100e0ced70",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "fd0acc55-55b1-547f-9be9-9c100e0ced70",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "e7f30567-ccda-5e94-a63a-c7752ccd94c2"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/chicken-zh/2099690789588287488.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "fd0acc55-55b1-547f-9be9-9c100e0ced70",
+            "created_at": "1789440213910",
+            "error_code": 0,
+            "error_message": "",
+            "id": "e7f30567-ccda-5e94-a63a-c7752ccd94c2",
+            "prompt": "神鸡出击，谁敢挡路！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440213910",
+              "description": "神鸡出击，谁敢挡路！",
+              "id": "2099690789588287488",
+              "name": "divine_chicken_strike",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/divine_chicken_strike_0c44c930.mp3",
+                "uri": "generated_audio/divine_chicken_strike_0c44c930.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/divine_chicken_strike_0c44c930.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440294982"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "chicken-en",
+    "text": "Chicken charge! Out of my way!",
+    "output": "art-jobs/voices-v1/chicken-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "9e59d85b-6d64-5a87-8764-baa986d19827",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "9e59d85b-6d64-5a87-8764-baa986d19827",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "1bc83be0-8065-5c32-9305-2ff8fa01629a"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/chicken-en/2099690851341025280.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "9e59d85b-6d64-5a87-8764-baa986d19827",
+            "created_at": "1789440220047",
+            "error_code": 0,
+            "error_message": "",
+            "id": "1bc83be0-8065-5c32-9305-2ff8fa01629a",
+            "prompt": "Chicken charge! Out of my way!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440220047",
+              "description": "Chicken charge! Out of my way!",
+              "id": "2099690851341025280",
+              "name": "chicken_charge",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/chicken_charge_672204c9.mp3",
+                "uri": "generated_audio/chicken_charge_672204c9.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/chicken_charge_672204c9.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440296896"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "rocket-zh",
+    "text": "火箭准备，送你上天！",
+    "output": "art-jobs/voices-v1/rocket-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "1dbc65e9-719e-55cd-aef1-9dc8c55b4341",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "1dbc65e9-719e-55cd-aef1-9dc8c55b4341",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "15d239b9-f3c4-5b4a-9999-b4e7b4e667b1"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/rocket-zh/2099690789663784960.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "1dbc65e9-719e-55cd-aef1-9dc8c55b4341",
+            "created_at": "1789440226068",
+            "error_code": 0,
+            "error_message": "",
+            "id": "15d239b9-f3c4-5b4a-9999-b4e7b4e667b1",
+            "prompt": "火箭准备，送你上天！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440226068",
+              "description": "火箭准备，送你上天！",
+              "id": "2099690789663784960",
+              "name": "rocket_ready",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/rocket_ready_4f440584.mp3",
+                "uri": "generated_audio/rocket_ready_4f440584.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/rocket_ready_4f440584.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440281862"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "rocket-en",
+    "text": "Rockets ready! Next stop, orbit!",
+    "output": "art-jobs/voices-v1/rocket-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "d3e457e9-b2aa-5cd9-af48-f98d6cee40b3",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "d3e457e9-b2aa-5cd9-af48-f98d6cee40b3",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "cf6f3847-8737-5595-85cf-2ce20ac3fbbe"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/rocket-en/2099690684520972288.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "d3e457e9-b2aa-5cd9-af48-f98d6cee40b3",
+            "created_at": "1789440231392",
+            "error_code": 0,
+            "error_message": "",
+            "id": "cf6f3847-8737-5595-85cf-2ce20ac3fbbe",
+            "prompt": "Rockets ready! Next stop, orbit!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440231392",
+              "description": "Rockets ready! Next stop, orbit!",
+              "id": "2099690684520972288",
+              "name": "next_stop_orbit",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/next_stop_orbit_d92801a8.mp3",
+                "uri": "generated_audio/next_stop_orbit_d92801a8.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/next_stop_orbit_d92801a8.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440262860"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "ram-zh",
+    "text": "稳住，看我的羊角冲锋！",
+    "output": "art-jobs/voices-v1/ram-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "a77b0586-3cec-587d-bb32-b9c0395df773",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "a77b0586-3cec-587d-bb32-b9c0395df773",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "aaa1bb36-58ac-5e49-abfc-213714b6cb31"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/ram-zh/2099690801193926656.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "a77b0586-3cec-587d-bb32-b9c0395df773",
+            "created_at": "1789440236627",
+            "error_code": 0,
+            "error_message": "",
+            "id": "aaa1bb36-58ac-5e49-abfc-213714b6cb31",
+            "prompt": "稳住，看我的羊角冲锋！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440236627",
+              "description": "稳住，看我的羊角冲锋！",
+              "id": "2099690801193926656",
+              "name": "ram_charge_cry",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/ram_charge_cry_903cb90c.mp3",
+                "uri": "generated_audio/ram_charge_cry_903cb90c.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/ram_charge_cry_903cb90c.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440277850"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "ram-en",
+    "text": "Hold steady! Ram charge!",
+    "output": "art-jobs/voices-v1/ram-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "7a76d784-8a08-5e9f-abb4-df13e7c18ab9",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "7a76d784-8a08-5e9f-abb4-df13e7c18ab9",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "eb633b64-e6ea-536a-b01e-bcd28c4a7d83"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/ram-en/2099690801533665280.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "7a76d784-8a08-5e9f-abb4-df13e7c18ab9",
+            "created_at": "1789440244506",
+            "error_code": 0,
+            "error_message": "",
+            "id": "eb633b64-e6ea-536a-b01e-bcd28c4a7d83",
+            "prompt": "Hold steady! Ram charge!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440244506",
+              "description": "Hold steady! Ram charge!",
+              "id": "2099690801533665280",
+              "name": "hold_steady_ram_charge",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/hold_steady_ram_charge_7055b14d.mp3",
+                "uri": "generated_audio/hold_steady_ram_charge_7055b14d.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/hold_steady_ram_charge_7055b14d.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440282000"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "whale-zh",
+    "text": "鲸鱼喷泉，冲个痛快！",
+    "output": "art-jobs/voices-v1/whale-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "51cfed22-3449-5167-9658-5b9976de9fce",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "51cfed22-3449-5167-9658-5b9976de9fce",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "ea9cc03f-dfcf-573b-bbf5-e3a0c5b39b28"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/whale-zh/2099690775126327296.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "51cfed22-3449-5167-9658-5b9976de9fce",
+            "created_at": "1789440249954",
+            "error_code": 0,
+            "error_message": "",
+            "id": "ea9cc03f-dfcf-573b-bbf5-e3a0c5b39b28",
+            "prompt": "鲸鱼喷泉，冲个痛快！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440249954",
+              "description": "鲸鱼喷泉，冲个痛快！",
+              "id": "2099690775126327296",
+              "name": "whale_fountain_splash",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/whale_fountain_splash_383304ff.mp3",
+                "uri": "generated_audio/whale_fountain_splash_383304ff.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/whale_fountain_splash_383304ff.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440270866"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "whale-en",
+    "text": "Whale fountain! Make a splash!",
+    "output": "art-jobs/voices-v1/whale-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "08df0b8d-eb21-56ee-be47-9bbc42a196f5",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "08df0b8d-eb21-56ee-be47-9bbc42a196f5",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "c3fffed8-7f2f-58cf-8a13-44685f5fe8da"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/whale-en/2099690894764654592.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "08df0b8d-eb21-56ee-be47-9bbc42a196f5",
+            "created_at": "1789440255178",
+            "error_code": 0,
+            "error_message": "",
+            "id": "c3fffed8-7f2f-58cf-8a13-44685f5fe8da",
+            "prompt": "Whale fountain! Make a splash!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440255178",
+              "description": "Whale fountain! Make a splash!",
+              "id": "2099690894764654592",
+              "name": "whale_fountain_splash",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/whale_fountain_splash_3623f5f7.mp3",
+                "uri": "generated_audio/whale_fountain_splash_3623f5f7.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/whale_fountain_splash_3623f5f7.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440302907"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "leviathan-zh",
+    "text": "小梁上线，玄鲸开炮！",
+    "output": "art-jobs/voices-v1/leviathan-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "32ffccb2-43c6-5021-9cfa-3bf3ea49a9eb",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "32ffccb2-43c6-5021-9cfa-3bf3ea49a9eb",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "ee7bbe55-c2e6-5d5a-a717-e8d1d9917f09"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/leviathan-zh/2099690863707582464.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "32ffccb2-43c6-5021-9cfa-3bf3ea49a9eb",
+            "created_at": "1789440261151",
+            "error_code": 0,
+            "error_message": "",
+            "id": "ee7bbe55-c2e6-5d5a-a717-e8d1d9917f09",
+            "prompt": "小梁上线，玄鲸开炮！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440261151",
+              "description": "小梁上线，玄鲸开炮！",
+              "id": "2099690863707582464",
+              "name": "xiaoliang_xuanjing_fire",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/xiaoliang_xuanjing_fire_d264bc2f.mp3",
+                "uri": "generated_audio/xiaoliang_xuanjing_fire_d264bc2f.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/xiaoliang_xuanjing_fire_d264bc2f.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440292844"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "leviathan-en",
+    "text": "Deep whale online! Fire the cannon!",
+    "output": "art-jobs/voices-v1/leviathan-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "11784c8c-9572-5d29-9979-894c96517e69",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "11784c8c-9572-5d29-9979-894c96517e69",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "a4b5d5ac-d424-5bbf-af7e-5ae05bcb0450"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/leviathan-en/2099690921261821952.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "11784c8c-9572-5d29-9979-894c96517e69",
+            "created_at": "1789440267319",
+            "error_code": 0,
+            "error_message": "",
+            "id": "a4b5d5ac-d424-5bbf-af7e-5ae05bcb0450",
+            "prompt": "Deep whale online! Fire the cannon!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440267319",
+              "description": "Deep whale online! Fire the cannon!",
+              "id": "2099690921261821952",
+              "name": "deep_whale_cannon",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/deep_whale_cannon_be93d21c.mp3",
+                "uri": "generated_audio/deep_whale_cannon_be93d21c.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/deep_whale_cannon_be93d21c.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440306874"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "idle-a-zh",
+    "text": "别催别催，下面还有一层！",
+    "output": "art-jobs/voices-v1/idle-a-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "7be53316-a82a-53eb-9049-b9bd7f138b75",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "7be53316-a82a-53eb-9049-b9bd7f138b75",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "c4e0cb91-65bb-53ae-a374-9bcf866ba57c"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/idle-a-zh/2099690907024605184.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "7be53316-a82a-53eb-9049-b9bd7f138b75",
+            "created_at": "1789440273598",
+            "error_code": 0,
+            "error_message": "",
+            "id": "c4e0cb91-65bb-53ae-a374-9bcf866ba57c",
+            "prompt": "别催别催，下面还有一层！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440273598",
+              "description": "别催别催，下面还有一层！",
+              "id": "2099690907024605184",
+              "name": "another_level_below",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/another_level_below_b1afe0cb.mp3",
+                "uri": "generated_audio/another_level_below_b1afe0cb.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/another_level_below_b1afe0cb.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440308976"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "idle-a-en",
+    "text": "Easy now! There is always another floor!",
+    "output": "art-jobs/voices-v1/idle-a-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "c41315b5-c339-5a84-8ca5-3231cd08648f",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "c41315b5-c339-5a84-8ca5-3231cd08648f",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "09a16209-4401-5fbe-8051-54493d1009de"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/idle-a-en/2099690979690921984.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "c41315b5-c339-5a84-8ca5-3231cd08648f",
+            "created_at": "1789440279057",
+            "error_code": 0,
+            "error_message": "",
+            "id": "09a16209-4401-5fbe-8051-54493d1009de",
+            "prompt": "Easy now! There is always another floor!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440279057",
+              "description": "Easy now! There is always another floor!",
+              "id": "2099690979690921984",
+              "name": "another_floor_warning",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/another_floor_warning_4005441b.mp3",
+                "uri": "generated_audio/another_floor_warning_4005441b.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/another_floor_warning_4005441b.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440322868"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "idle-b-zh",
+    "text": "道具归我，妖王归你！",
+    "output": "art-jobs/voices-v1/idle-b-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "9b50eeda-a4c1-542f-9939-15cee8329673",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "9b50eeda-a4c1-542f-9939-15cee8329673",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "3440f420-2a9e-5d14-b7d8-c4ad7adab5e4"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/idle-b-zh/2099690967208673280.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "9b50eeda-a4c1-542f-9939-15cee8329673",
+            "created_at": "1789440286937",
+            "error_code": 0,
+            "error_message": "",
+            "id": "3440f420-2a9e-5d14-b7d8-c4ad7adab5e4",
+            "prompt": "道具归我，妖王归你！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440286937",
+              "description": "道具归我，妖王归你！",
+              "id": "2099690967208673280",
+              "name": "claim_loot_and_boss",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/claim_loot_and_boss_1b0d4fa2.mp3",
+                "uri": "generated_audio/claim_loot_and_boss_1b0d4fa2.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/claim_loot_and_boss_1b0d4fa2.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440337906"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "idle-b-en",
+    "text": "I take the loot, you take the boss!",
+    "output": "art-jobs/voices-v1/idle-b-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "c69c1298-c3b8-5384-acf0-8a5c93ece702",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "c69c1298-c3b8-5384-acf0-8a5c93ece702",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "51f03b00-c631-55b4-a395-55035bef078d"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/idle-b-en/2099690986317922304.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "c69c1298-c3b8-5384-acf0-8a5c93ece702",
+            "created_at": "1789440295095",
+            "error_code": 0,
+            "error_message": "",
+            "id": "51f03b00-c631-55b4-a395-55035bef078d",
+            "prompt": "I take the loot, you take the boss!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440295095",
+              "description": "I take the loot, you take the boss!",
+              "id": "2099690986317922304",
+              "name": "loot_and_boss",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/loot_and_boss_c83b5e51.mp3",
+                "uri": "generated_audio/loot_and_boss_c83b5e51.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/loot_and_boss_c83b5e51.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440333810"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "pineapple-en",
+    "text": "Pineapple bombs! Catch these!",
+    "output": "art-jobs/voices-v1/pineapple-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "e43350b2-11f5-54b9-843f-c3ec90a038db",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "e43350b2-11f5-54b9-843f-c3ec90a038db",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "5edbd919-3dc3-5a32-8eb4-373a6dce59c8"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voices-v1/pineapple-en/2099690982232670208.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "e43350b2-11f5-54b9-843f-c3ec90a038db",
+            "created_at": "1789440301390",
+            "error_code": 0,
+            "error_message": "",
+            "id": "5edbd919-3dc3-5a32-8eb4-373a6dce59c8",
+            "prompt": "Pineapple bombs! Catch these!",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440301390",
+              "description": "Pineapple bombs! Catch these!",
+              "id": "2099690982232670208",
+              "name": "pineapple_bombs_catch",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/pineapple_bombs_catch_8a041173.mp3",
+                "uri": "generated_audio/pineapple_bombs_catch_8a041173.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/pineapple_bombs_catch_8a041173.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440323848"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  },
+  {
+    "key": "pineapple-zh",
+    "text": "菠萝炸弹，接好啦！",
+    "output": "art-jobs/voice-pineapple-v1",
+    "result": {
+      "data": {
+        "tasks": [
+          {
+            "task_id": "504ce252-a959-547e-9787-0c221249a146"
+          }
+        ]
+      }
+    },
+    "download": {
+      "data": {
+        "downloads": [
+          "art-jobs/voice-pineapple-v1/2099690525789286400.mp3"
+        ],
+        "tasks": [
+          {
+            "asset_type": "ASSET_TYPE_AUDIO",
+            "batch_id": "848605dd-a4c1-5373-9e15-3ab59913effa",
+            "created_at": "1789440169149",
+            "error_code": 0,
+            "error_message": "",
+            "id": "504ce252-a959-547e-9787-0c221249a146",
+            "prompt": "菠萝炸弹，接好啦！",
+            "reference_files": [],
+            "result": {
+              "asset_type": "ASSET_TYPE_AUDIO",
+              "created_at": "1789440169149",
+              "description": "菠萝炸弹，接好啦！",
+              "id": "2099690525789286400",
+              "name": "pineapple_bomb_catch",
+              "oss_object": {
+                "bucket": "kntech-game-prod-public",
+                "signed_url": "https://cdn.combos.fun/generated_audio/pineapple_bomb_catch_1e049bc3.mp3",
+                "uri": "generated_audio/pineapple_bomb_catch_1e049bc3.mp3"
+              },
+              "project_ids": null,
+              "resources": [
+                {
+                  "remote": {
+                    "key": "audio",
+                    "resource_type": "RESOURCE_TYPE_AUDIO",
+                    "url": "https://cdn.combos.fun/generated_audio/pineapple_bomb_catch_1e049bc3.mp3"
+                  }
+                }
+              ],
+              "sub_type": "tts"
+            },
+            "retried": false,
+            "status": "ASSET_TASK_STATUS_SUCCESS",
+            "sub_type": "tts",
+            "updated_at": "1789440257984"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "succeeded"
+    }
+  }
+]

@@ -39,9 +39,13 @@ npm test
 | `worker/` | Combos 云端多人房间后端 |
 | `test/` | Node.js 游戏与联机回归测试 |
 | `tools/` | Combos H5 构建与素材切图工具 |
+| `art-jobs/` | Combos 素材生成的提示词、任务输入与原始素材 |
+| `video/` | Remotion 剪辑工程、所需视频与音频素材、最终成片 |
 
-发布到 Combos 时需使用你自己的 CLI 登录、Worker 与 Post 绑定。账号绑定文件 `combos.json`、本地环境变量、生成任务日志以及宣传视频素材不在仓库中；`node tools/build-combos.mjs` 在已有有效 `combos.json` 的环境中构建 `dist/`。
+发布到 Combos 时需使用你自己的 CLI 登录、Worker 与 Post 绑定。账号绑定文件 `combos.json` 与本地环境变量不在仓库中；`node tools/build-combos.mjs` 在已有有效 `combos.json` 的环境中构建 `dist/`。
+
+视频成片在 [`video/out/man18-story-berryxia-v5.mp4`](video/out/man18-story-berryxia-v5.mp4)，剪辑源码与所需素材在 `video/src/`、`video/public/`、`video/raw/`。进入 `video/` 运行 `npm ci` 后，可用 `npm run render:berryxia-ending-final` 重新渲染。中间试剪、预览帧和 `node_modules` 未纳入版本库。
 
 ## 授权与素材
 
-源码按 [MIT License](LICENSE) 开放。**图片、角色、音乐、音效与字体不自动适用 MIT**：第三方和生成素材的来源与授权说明见 [ASSET_CREDITS.md](ASSET_CREDITS.md)，字体的 OFL 许可见 `public/fonts/LICENSE.txt`。如要在其他项目中复用素材，请分别核对相应授权条款。
+源码按 [MIT License](LICENSE) 开放。**图片、角色、音乐、音效、字体和真人出镜视频不自动适用 MIT**：第三方和生成素材的来源与授权说明见 [ASSET_CREDITS.md](ASSET_CREDITS.md)，字体的 OFL 许可见 `public/fonts/LICENSE.txt`。视频素材仅供查看和复现本项目；如要在其他项目中复用素材，请分别核对相应授权条款。

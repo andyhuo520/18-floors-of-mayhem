@@ -1,0 +1,346 @@
+[
+  {
+    "key": "chicken-zh",
+    "text": "神鸡出击，谁敢挡路！",
+    "output": "art-jobs/voices-v1/chicken-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "fd0acc55-55b1-547f-9be9-9c100e0ced70",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "fd0acc55-55b1-547f-9be9-9c100e0ced70",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "e7f30567-ccda-5e94-a63a-c7752ccd94c2"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "chicken-en",
+    "text": "Chicken charge! Out of my way!",
+    "output": "art-jobs/voices-v1/chicken-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "9e59d85b-6d64-5a87-8764-baa986d19827",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "9e59d85b-6d64-5a87-8764-baa986d19827",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "1bc83be0-8065-5c32-9305-2ff8fa01629a"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "rocket-zh",
+    "text": "火箭准备，送你上天！",
+    "output": "art-jobs/voices-v1/rocket-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "1dbc65e9-719e-55cd-aef1-9dc8c55b4341",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "1dbc65e9-719e-55cd-aef1-9dc8c55b4341",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "15d239b9-f3c4-5b4a-9999-b4e7b4e667b1"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "rocket-en",
+    "text": "Rockets ready! Next stop, orbit!",
+    "output": "art-jobs/voices-v1/rocket-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "d3e457e9-b2aa-5cd9-af48-f98d6cee40b3",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "d3e457e9-b2aa-5cd9-af48-f98d6cee40b3",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "cf6f3847-8737-5595-85cf-2ce20ac3fbbe"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "ram-zh",
+    "text": "稳住，看我的羊角冲锋！",
+    "output": "art-jobs/voices-v1/ram-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "a77b0586-3cec-587d-bb32-b9c0395df773",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "a77b0586-3cec-587d-bb32-b9c0395df773",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "aaa1bb36-58ac-5e49-abfc-213714b6cb31"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "ram-en",
+    "text": "Hold steady! Ram charge!",
+    "output": "art-jobs/voices-v1/ram-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "7a76d784-8a08-5e9f-abb4-df13e7c18ab9",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "7a76d784-8a08-5e9f-abb4-df13e7c18ab9",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "eb633b64-e6ea-536a-b01e-bcd28c4a7d83"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "whale-zh",
+    "text": "鲸鱼喷泉，冲个痛快！",
+    "output": "art-jobs/voices-v1/whale-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "51cfed22-3449-5167-9658-5b9976de9fce",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "51cfed22-3449-5167-9658-5b9976de9fce",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "ea9cc03f-dfcf-573b-bbf5-e3a0c5b39b28"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "whale-en",
+    "text": "Whale fountain! Make a splash!",
+    "output": "art-jobs/voices-v1/whale-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "08df0b8d-eb21-56ee-be47-9bbc42a196f5",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "08df0b8d-eb21-56ee-be47-9bbc42a196f5",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "c3fffed8-7f2f-58cf-8a13-44685f5fe8da"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "leviathan-zh",
+    "text": "小梁上线，玄鲸开炮！",
+    "output": "art-jobs/voices-v1/leviathan-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "32ffccb2-43c6-5021-9cfa-3bf3ea49a9eb",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "32ffccb2-43c6-5021-9cfa-3bf3ea49a9eb",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "ee7bbe55-c2e6-5d5a-a717-e8d1d9917f09"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "leviathan-en",
+    "text": "Deep whale online! Fire the cannon!",
+    "output": "art-jobs/voices-v1/leviathan-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "11784c8c-9572-5d29-9979-894c96517e69",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "11784c8c-9572-5d29-9979-894c96517e69",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "a4b5d5ac-d424-5bbf-af7e-5ae05bcb0450"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "idle-a-zh",
+    "text": "别催别催，下面还有一层！",
+    "output": "art-jobs/voices-v1/idle-a-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "7be53316-a82a-53eb-9049-b9bd7f138b75",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "7be53316-a82a-53eb-9049-b9bd7f138b75",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "c4e0cb91-65bb-53ae-a374-9bcf866ba57c"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "idle-a-en",
+    "text": "Easy now! There is always another floor!",
+    "output": "art-jobs/voices-v1/idle-a-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "c41315b5-c339-5a84-8ca5-3231cd08648f",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "c41315b5-c339-5a84-8ca5-3231cd08648f",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "09a16209-4401-5fbe-8051-54493d1009de"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "idle-b-zh",
+    "text": "道具归我，妖王归你！",
+    "output": "art-jobs/voices-v1/idle-b-zh",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "9b50eeda-a4c1-542f-9939-15cee8329673",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "9b50eeda-a4c1-542f-9939-15cee8329673",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "3440f420-2a9e-5d14-b7d8-c4ad7adab5e4"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "idle-b-en",
+    "text": "I take the loot, you take the boss!",
+    "output": "art-jobs/voices-v1/idle-b-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "c69c1298-c3b8-5384-acf0-8a5c93ece702",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "c69c1298-c3b8-5384-acf0-8a5c93ece702",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "51f03b00-c631-55b4-a395-55035bef078d"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "pineapple-en",
+    "text": "Pineapple bombs! Catch these!",
+    "output": "art-jobs/voices-v1/pineapple-en",
+    "result": {
+      "data": {
+        "asset_type": "ASSET_TYPE_AUDIO",
+        "batch_id": "e43350b2-11f5-54b9-843f-c3ec90a038db",
+        "quantity": 1,
+        "sub_type": "tts",
+        "tasks": [
+          {
+            "batch_id": "e43350b2-11f5-54b9-843f-c3ec90a038db",
+            "status": "ASSET_TASK_STATUS_RUNNING",
+            "task_id": "5edbd919-3dc3-5a32-8eb4-373a6dce59c8"
+          }
+        ]
+      },
+      "ok": true,
+      "result_status": "pending"
+    }
+  },
+  {
+    "key": "pineapple-zh",
+    "text": "菠萝炸弹，接好啦！",
+    "output": "art-jobs/voice-pineapple-v1",
+    "result": {
+      "data": {
+        "tasks": [
+          {
+            "task_id": "504ce252-a959-547e-9787-0c221249a146"
+          }
+        ]
+      }
+    }
+  }
+]

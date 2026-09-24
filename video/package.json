@@ -1,0 +1,23 @@
+{
+  "name": "man18-intro-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "render": "remotion render src/index.tsx Man18Story out/man18-story.mp4 --codec h264 --concurrency 4",
+    "render:presenter": "remotion render src/index.tsx Man18PresenterCut out/man18-presenter-cut.mp4 --codec h264 --concurrency 4",
+    "render:berryxia": "remotion render src/index.tsx Man18Berryxia out/man18-story-berryxia.mp4 --codec h264 --concurrency 4",
+    "render:berryxia-tight": "remotion render src/index.tsx Man18BerryxiaTight out/man18-story-berryxia-v2.mp4 --codec h264 --concurrency 4",
+    "render:berryxia-new-ending": "remotion render src/index.tsx Man18BerryxiaNewEnding out/man18-story-berryxia-v3.mp4 --codec h264 --concurrency 4",
+    "render:berryxia-ending-insert": "remotion render src/index.tsx Man18BerryxiaEndingInsert out/man18-story-berryxia-v4.mp4 --codec h264 --concurrency 4",
+    "render:berryxia-ending-final": "remotion render src/index.tsx Man18BerryxiaEndingInsertFinal out/man18-story-berryxia-v5.mp4 --codec h264 --concurrency 4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0"
+  }
+}

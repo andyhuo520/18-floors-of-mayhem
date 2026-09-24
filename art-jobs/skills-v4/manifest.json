@@ -1,0 +1,32 @@
+{
+  "heroes-a": {
+    "source": "art-jobs/skills-v4/downloads/heroes-a/2099539217073348608.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/heroes-a.webp"
+  },
+  "heroes-b": {
+    "source": "art-jobs/skills-v4/downloads/heroes-b/2099538717912825856.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/heroes-b.webp"
+  },
+  "boss-a": {
+    "source": "art-jobs/skills-v4/downloads/boss-a/2099539267568574464.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/boss-a.webp"
+  },
+  "boss-b": {
+    "source": "art-jobs/skills-v4/downloads/boss-b/2099538755766419456.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/boss-b.webp"
+  },
+  "boss-c": {
+    "source": "art-jobs/skills-v4/downloads/boss-c/2099538737340841984.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/boss-c.webp"
+  },
+  "impacts": {
+    "source": "art-jobs/skills-v4/downloads/impacts/2099538892962103296.webp",
+    "frames": 12,
+    "file": "public/combos-assets/skills-v4/impacts.webp"
+  }
+}

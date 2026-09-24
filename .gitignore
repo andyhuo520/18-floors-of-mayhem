@@ -11,7 +11,8 @@ __pycache__/
 combos.json
 .combos.lock
 
-# Production footage and intermediate asset-generation jobs are not game source
-video/
-art-jobs/
+# Keep the editable video project and released cut, but not generated previews.
+video/node_modules/
+video/out/*
+!video/out/man18-story-berryxia-v5.mp4
 .claude/

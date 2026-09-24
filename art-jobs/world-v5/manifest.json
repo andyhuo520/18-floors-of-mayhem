@@ -1,0 +1,22 @@
+{
+  "giants-a": {
+    "source": "art-jobs/world-v5/downloads/giants-a/2099542613477523456.webp",
+    "frames": 12,
+    "file": "public/combos-assets/world-v5/giants-a.webp"
+  },
+  "giants-b": {
+    "source": "art-jobs/world-v5/downloads/giants-b/2099541887649619968.webp",
+    "frames": 12,
+    "file": "public/combos-assets/world-v5/giants-b.webp"
+  },
+  "giants-c": {
+    "source": "art-jobs/world-v5/downloads/giants-c/2099542395974098944.webp",
+    "frames": 12,
+    "file": "public/combos-assets/world-v5/giants-c.webp"
+  },
+  "relics": {
+    "source": "art-jobs/world-v5/downloads/relics/2099542155330101248.webp",
+    "frames": 12,
+    "file": "public/combos-assets/world-v5/relics.webp"
+  }
+}
